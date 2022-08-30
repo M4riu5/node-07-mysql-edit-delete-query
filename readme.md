@@ -6,6 +6,7 @@
 5. susikurit backend serveri su express
 6. isijungti morgana , cors , jsona() (app.use)
 7. sukurti .env ir ideti bent jau porta
+404 - response in json
 8. config.js pasiimti prisijungimo duomenis is .env
 9. Pasileisti XAMP ir pasitikrinti ar veikia duomenubaze
 10. susikurti reikalingus routes
