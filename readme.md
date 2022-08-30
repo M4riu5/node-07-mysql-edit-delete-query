@@ -1,7 +1,7 @@
 # Steps
 1. inicijuoti git , .gitignore
 2. inicijuoti npm
-3. isirasyti express cors morgan colors eslint nodemon dotenv mysql2  / package.json susikuriam scriptus
+3. isirasyti express cors, morgan, colors ,(eslint -dev) ,(nodemon -dev), dotenv ,mysql2  / package.json susikuriam scriptus
 4. eslint --init - sukonfiguruoti es lint
 5. susikurit backend serveri su express
 6. isijungti morgana , cors , jsona() (app.use)
