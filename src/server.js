@@ -41,7 +41,6 @@ app.get('/api/articles', async (req, res) => {
   try {
     const conn = await mysql.createConnection(dbConfig);
     let sql = 'Select * FROM posts WHERE archived = 0';
-    
     // if query params id
     if (req.query.id) {
       sql = 'Select * FROM posts WHERE id = ?';
